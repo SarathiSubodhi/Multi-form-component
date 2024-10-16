@@ -1,12 +1,9 @@
-import { useState } from "react";
 import StepForm from "./components/StepForm";
 
-function App() {
+export default function Home() {
   return (
     <>
       <StepForm />
     </>
   );
 }
-
-export default App;

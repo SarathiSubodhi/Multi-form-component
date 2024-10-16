@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 const Step1 = ({ formData, handleChange, handleFileChange }) => (
@@ -10,7 +12,7 @@ const Step1 = ({ formData, handleChange, handleFileChange }) => (
       {/* Applicant's Name */}
       <div id="applicant-name" className="mb-8">
         <label className="block mb-2 text-gray-700 font-bold">
-          Applicant's Name <span className="text-red-600">*</span>
+          Applicant&apos;s Name <span className="text-red-600">*</span>
         </label>
         <div className="flex mb-4">
           <input

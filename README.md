@@ -1,8 +1,16 @@
 # Setup
 
-- This is a React + Vite Project
+Run on development machine.
 
 ```
-npm install --legacy-peer-deps
+npm install
 npm run dev
+```
+
+Run on production.
+
+```
+npm install
+npm run build
+npm start
 ```

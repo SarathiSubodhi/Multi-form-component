@@ -1,4 +1,5 @@
-// Step4.js
+"use client";
+
 import React from "react";
 
 const Step4 = ({ formData, handleSubmit }) => {
