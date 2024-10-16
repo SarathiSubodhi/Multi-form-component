@@ -95,12 +95,12 @@ const Step4 = ({ formData, handleSubmit }) => {
               <input
                 type="text"
                 placeholder="First Name"
-                className="w-full h-10 border border-gray-300 rounded px-2"
+                className="w-full h-10 border border-gray-300 rounded px-2 text-black"
               />
               <input
                 type="text"
                 placeholder="Last Name"
-                className="w-full h-10 border border-gray-300 rounded px-2"
+                className="w-full h-10 border border-gray-300 rounded px-2 text-black"
               />
             </div>
           </div>

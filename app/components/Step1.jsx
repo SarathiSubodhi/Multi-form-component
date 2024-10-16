@@ -34,7 +34,7 @@ const Step1 = ({ formData, handleChange, handleFileChange }) => (
         </div>
 
         <div className="mb-4">
-          <label className="flex items-center">
+          <label className="flex items-center text-black">
             <input
               type="checkbox"
               name="onBehalf"
@@ -50,7 +50,7 @@ const Step1 = ({ formData, handleChange, handleFileChange }) => (
       {/* Proxy Information */}
       {formData.onBehalf && (
         <div id="proxy-info" className="mb-8">
-          <h3 className="text-lg font-semibold mb-4">
+          <h3 className="text-lg font-semibold mb-4 text-black">
             If you are submitting this form for another person, please provide
             your information below:
           </h3>
@@ -60,7 +60,7 @@ const Step1 = ({ formData, handleChange, handleFileChange }) => (
               name="proxyFirstName" // New state for proxy first name
               placeholder="First Name"
               onChange={handleChange}
-              className="border border-black p-2 mr-2 rounded-xl w-1/2"
+              className="border border-black p-2 mr-2 rounded-xl w-1/2 text-black"
               required
             />
             <input
@@ -79,7 +79,7 @@ const Step1 = ({ formData, handleChange, handleFileChange }) => (
             <select
               name="relationship" // New state for relationship
               onChange={handleChange}
-              className="border rounded-xl border-black p-2 w-full"
+              className="border rounded-xl border-black p-2 w-full text-black"
               required
             >
               <option value="">Select</option>
@@ -111,7 +111,7 @@ const Step1 = ({ formData, handleChange, handleFileChange }) => (
                 },
               })
             }
-            className="border rounded-xl border-black p-2 mr-2 w-16"
+            className="border rounded-xl border-black p-2 mr-2 w-16 text-black"
             required
           />
           <input
@@ -154,7 +154,7 @@ const Step1 = ({ formData, handleChange, handleFileChange }) => (
         <label className="block mb-2 text-gray-700 font-bold">
           Do you have a disability? <span className="text-red-600">*</span>
         </label>
-        <div className="flex items-center mt-2">
+        <div className="flex items-center mt-2 text-black">
           <label className="mr-4">
             <input
               type="radio"

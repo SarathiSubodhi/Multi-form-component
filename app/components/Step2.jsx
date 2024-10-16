@@ -16,7 +16,7 @@ const Step2 = ({ formData, handleChange }) => (
           <span className="text-red-600">*</span>
         </label>
         <div className="flex flex-col">
-          <label className="flex items-center mb-2">
+          <label className="flex items-center mb-2 text-black">
             <input
               type="radio"
               name="mealPlan"
@@ -28,7 +28,7 @@ const Step2 = ({ formData, handleChange }) => (
             />
             Full 21 meals
           </label>
-          <label className="flex items-center mb-2">
+          <label className="flex items-center mb-2 text-black">
             <input
               type="radio"
               name="mealPlan"
@@ -40,7 +40,7 @@ const Step2 = ({ formData, handleChange }) => (
             />
             Lunch and Dinner
           </label>
-          <label className="flex items-center mb-2">
+          <label className="flex items-center mb-2 text-black">
             <input
               type="radio"
               name="mealPlan"
@@ -61,7 +61,7 @@ const Step2 = ({ formData, handleChange }) => (
           Days Requested: <span className="text-red-600">*</span>
         </label>
         <div className="flex flex-col">
-          <label className="flex items-center">
+          <label className="flex items-center text-black">
             <input
               type="checkbox"
               name="daysRequested"
@@ -71,7 +71,7 @@ const Step2 = ({ formData, handleChange }) => (
             />
             Sunday
           </label>
-          <label className="flex items-center">
+          <label className="flex items-center text-black">
             <input
               type="checkbox"
               name="daysRequested"
@@ -81,7 +81,7 @@ const Step2 = ({ formData, handleChange }) => (
             />
             Monday
           </label>
-          <label className="flex items-center">
+          <label className="flex items-center text-black">
             <input
               type="checkbox"
               name="daysRequested"
@@ -91,7 +91,7 @@ const Step2 = ({ formData, handleChange }) => (
             />
             Tuesday
           </label>
-          <label className="flex items-center">
+          <label className="flex items-center text-black">
             <input
               type="checkbox"
               name="daysRequested"
@@ -101,7 +101,7 @@ const Step2 = ({ formData, handleChange }) => (
             />
             Wednesday
           </label>
-          <label className="flex items-center">
+          <label className="flex items-center text-black">
             <input
               type="checkbox"
               name="daysRequested"
@@ -111,7 +111,7 @@ const Step2 = ({ formData, handleChange }) => (
             />
             Thursday
           </label>
-          <label className="flex items-center">
+          <label className="flex items-center text-black">
             <input
               type="checkbox"
               name="daysRequested"
@@ -121,7 +121,7 @@ const Step2 = ({ formData, handleChange }) => (
             />
             Friday
           </label>
-          <label className="flex items-center">
+          <label className="flex items-center text-black">
             <input
               type="checkbox"
               name="daysRequested"

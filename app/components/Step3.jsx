@@ -88,7 +88,7 @@ const Step3 = ({ formData, handleChange }) => {
             name="deliveryInstructions"
             value={formData.deliveryInstructions}
             onChange={handleChange}
-            className="border border-black p-2 rounded-xl w-full h-24"
+            className="border border-black p-2 rounded-xl w-full h-24 text-black"
           />
         </div>
 
@@ -109,7 +109,7 @@ const Step3 = ({ formData, handleChange }) => {
               placeholder="xxx"
               value={formData.phoneNumberAreaCode}
               onChange={handleChange}
-              className="border border-black p-2 mr-2 rounded-xl w-1/3"
+              className="border border-black p-2 mr-2 rounded-xl w-1/3 text-black"
               maxLength="3"
               required
             />
@@ -119,7 +119,7 @@ const Step3 = ({ formData, handleChange }) => {
               placeholder="xxx"
               value={formData.phoneNumberCentralOfficeCode}
               onChange={handleChange}
-              className="border border-black p-2 mr-2 rounded-xl w-1/3"
+              className="border border-black p-2 mr-2 rounded-xl w-1/3 text-black"
               maxLength="3"
               required
             />
@@ -129,7 +129,7 @@ const Step3 = ({ formData, handleChange }) => {
               placeholder="xxxx"
               value={formData.phoneNumberLineNumber}
               onChange={handleChange}
-              className="border border-black p-2 rounded-xl w-1/3"
+              className="border border-black p-2 rounded-xl w-1/3 text-black"
               maxLength="4"
               required
             />
@@ -146,7 +146,7 @@ const Step3 = ({ formData, handleChange }) => {
               placeholder="xxx"
               value={formData.secondaryPhoneNumberAreaCode}
               onChange={handleChange}
-              className="border border-black p-2 mr-2 rounded-xl w-1/3"
+              className="border border-black p-2 mr-2 rounded-xl w-1/3 text-black"
               maxLength="3"
             />
             <input
@@ -179,7 +179,7 @@ const Step3 = ({ formData, handleChange }) => {
               placeholder="Email (applicant.email@email.com)"
               value={formData.email}
               onChange={handleChange}
-              className="border border-black p-2 rounded-xl w-full"
+              className="border border-black p-2 rounded-xl w-full text-black"
               required
             />
           </div>
